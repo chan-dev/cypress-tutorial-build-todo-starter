@@ -79,7 +79,7 @@ export default class TodoApp extends Component {
   }
 
   handleToggle(id) {
-    const target = this.state.todos.find(todo => todo.id);
+    const target = this.state.todos.find(todo => todo.id === id);
     const updatedTodo = { ...target, isComplete: !target.isComplete };
 
     updateTodo(id, updatedTodo)
