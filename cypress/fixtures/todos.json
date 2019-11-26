@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Buy cp",
+    "isComplete": false
+  },
+  {
+    "id": 2,
+    "name": "Get a job",
+    "isComplete": true
+  },
+  {
+    "id": 3,
+    "name": "Earn money",
+    "isComplete": true
+  }
+]
