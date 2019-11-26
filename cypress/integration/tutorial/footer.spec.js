@@ -33,7 +33,7 @@ describe('Footer', () => {
   });
 
   context('Check filters', () => {
-    it.only('displays the correct set of todos based on filter', () => {
+    it('displays the correct set of todos based on filter', () => {
       cy.seedAndVisit();
 
       cy.fixture('todos').then(todos => {
